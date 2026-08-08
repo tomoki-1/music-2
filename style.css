@@ -29,7 +29,7 @@
 }
 
 
-
+/*
 .floor-tom{
     width: 120px;
     height: 100px;
@@ -43,7 +43,7 @@
     left: 50%;
     transform: translateX(30%);
 }
-
+*/
 
 
 .high-tom{
@@ -341,7 +341,7 @@
     transform: translateX(50%);
 
     width: 135px;
-    height: 250px;
+    height: 230px;
     background-color: transparent;
 }
 .crash-cymbal-right div{
@@ -356,6 +356,107 @@
     height: 110px;
     border-radius: 50%;
     background: radial-gradient(at 50% 46%, #000000 4px, #fff15a 5px);
+
+    z-index: 7;
+}
+.c-c-right-center-pipe{
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(2deg);
+
+    width: 8px;
+    height: 180px;
+    background-color: #8d8d8d;
+
+    box-shadow: inset -1px 0px 6px #000000;
+
+    transform-origin: bottom center;
+
+    z-index: 5;
+}
+.c-c-right-1{
+    top: 210px;
+    left: 48%;
+    transform: translateX(-50%) rotate(-38deg);
+
+    width: 8px;
+    height: 40px;
+    background-color: #8d8d8d;
+
+    box-shadow: inset 1px 0px 6px #000000;
+
+    transform-origin: top center;
+
+    z-index: 6;
+}
+.c-c-right-1-sub{
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-105deg);
+
+    width: 3px;
+    height: 15px;
+    background-color: #4d4d4d;
+
+    transform-origin: top center;
+
+    z-index: 7;
+}
+.c-c-right-2{
+    top: 210px;
+    left: 48%;
+    transform: translateX(-50%) rotate();
+
+    width: 8px;
+    height: 0px;
+    background-color: #8d8d8d;
+
+    box-shadow: inset 1px 0px 6px #000000;
+
+    transform-origin: top center;
+
+    z-index: 7;
+}
+.c-c-right-2-sub{
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%) rotate();
+
+    width: 3px;
+    height: ;
+    background-color: #4d4d4d;
+
+    transform-origin: top center;
+
+    z-index: ;
+}
+.c-c-right-3{
+    top: 210px;
+    left: 48%;
+    transform: translateX(-50%) rotate();
+
+    width: 8px;
+    height: ;
+    background-color: #8d8d8d;
+
+    box-shadow: inset 1px 0px 6px #000000;
+
+    transform-origin: top center;
+
+    z-index: ;
+}
+.c-c-right-3-sub{
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%) rotate();
+
+    width: 3px;
+    height: ;
+    background-color: #4d4d4d;
+
+    transform-origin: top center;
+
+    z-index: ;
 }
 
 
@@ -363,8 +464,7 @@
 
 
 
-
-
+/*
 
 .ride-cymbal{
     position: absolute;
