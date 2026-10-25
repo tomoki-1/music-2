@@ -101,7 +101,7 @@
     border-radius: 50%;
     background: radial-gradient(at 50% 46%, #000000 4px, #fff15a 5px);
 
-    z-index: 7;
+    z-index: 70;
 }
 .hi-hat-under{
     top: 7px;
@@ -113,7 +113,7 @@
     border-radius: 50%;
     background: color-mix(in srgb, #fff15a, #000000 20%);
 
-    z-index: 6;
+    z-index: 60;
 }
 .hi-center-pipe-1g{
     top: 40.3px;
@@ -128,7 +128,7 @@
 
     transform-origin: center 7px;
 
-    z-index: 11;
+    z-index: 110;
 }
 .hi-center-pipe-2g{
     top: 33.3px;
@@ -143,7 +143,7 @@
 
     transform-origin: center 14px;
 
-    z-index: 11;
+    z-index: 110;
 }
 .hi-center-pipe-3g{
     top: 18.6px;
@@ -158,7 +158,7 @@
 
     transform-origin: center 28.7px;
 
-    z-index: 11;
+    z-index: 110;
 }
 .hi-center-pipe{
     top: 48.3px;
@@ -173,7 +173,7 @@
 
     transform-origin: top center;
 
-    z-index: 3;
+    z-index: 30;
 }
 .hi-1{
     top: 180px;
@@ -188,7 +188,7 @@
 
     transform-origin: top center;
 
-    z-index: 4;
+    z-index: 40;
 }
 .hi-1-sub{
     top: 200px;
@@ -201,7 +201,7 @@
 
     transform-origin: top center;
 
-    z-index: 2;
+    z-index: 20;
 }
 .hi-2{
     top: 180px;
@@ -216,7 +216,7 @@
 
     transform-origin: top center;
 
-    z-index: 4;
+    z-index: 40;
 }
 .hi-2-sub{
     top: 200px;
@@ -229,7 +229,7 @@
 
     transform-origin: top center;
 
-    z-index: 2;
+    z-index: 20;
 }
 .hi-3{
     top: 180px;
@@ -244,7 +244,7 @@
 
     transform-origin: top center;
 
-    z-index: 2;
+    z-index: 20;
 }
 .hi-3-sub{
     top: 200px;
@@ -257,7 +257,7 @@
 
     transform-origin: top center;
 
-    z-index: 1;
+    z-index: 10;
 }
 .hi-pedal{
     top: 198px;
@@ -272,7 +272,7 @@
 
     transform-origin: bottom center;
 
-    z-index: 6;
+    z-index: 60;
 }
 .hi-pedal-under{
     top: 200px;
@@ -287,7 +287,7 @@
 
     transform-origin: bottom center;
 
-    z-index: 5;
+    z-index: 50;
 }
 /*
 .hi-pedal-center{
@@ -357,7 +357,7 @@
     border-radius: 50%;
     background: radial-gradient(at 50% 46%, #000000 4px, #fff15a 5px);
 
-    z-index: 7;
+    z-index: 70;
 }
 .c-c-right-center-pipe{
     top: 50px;
@@ -372,22 +372,22 @@
 
     transform-origin: bottom center;
 
-    z-index: 5;
+    z-index: 50;
 }
 .c-c-right-1{
     top: 210px;
-    left: 48%;
+    left: 50%;
     transform: translateX(-50%) rotate(-38deg);
 
     width: 8px;
     height: 40px;
-    background-color: #8d8d8d;
+    background-color: #b5b5b5;
 
     box-shadow: inset 1px 0px 6px #000000;
 
     transform-origin: top center;
 
-    z-index: 6;
+    z-index: 60;
 }
 .c-c-right-1-sub{
     top: 230px;
@@ -396,54 +396,54 @@
 
     width: 3px;
     height: 15px;
-    background-color: #4d4d4d;
+    background-color: #525252;
 
     transform-origin: top center;
 
-    z-index: 7;
+    z-index: 55;
 }
 .c-c-right-2{
     top: 210px;
     left: 50%;
-    transform: translateX(-50%) rotate(40deg);
+    transform: translateX(-50%) rotate(55deg);
 
     width: 8px;
     height: 32px;
-    background-color: #8d8d8d;
+    background-color: #b5b5b5;
 
     box-shadow: inset -1px 0px 6px #000000;
 
     transform-origin: top center;
 
-    z-index: 7;
+    z-index: 52;
 }
 .c-c-right-2-sub{
     top: 230px;
     left: 50%;
-    transform: translateX(-50%) rotate();
+    transform: translateX(-50%) rotate(125deg);
 
     width: 3px;
-    height: ;
-    background-color: #4d4d4d;
+    height: 19px;
+    background-color: #525252;
 
     transform-origin: top center;
 
-    z-index: ;
+    z-index: 50;
 }
 .c-c-right-3{
     top: 210px;
     left: 48%;
-    transform: translateX(-50%) rotate();
+    transform: translateX(-50%) rotate(-60deg);
 
     width: 8px;
-    height: ;
-    background-color: #8d8d8d;
+    height: 35px;
+    background-color: #b5b5b5;
 
     box-shadow: inset 1px 0px 6px #000000;
 
     transform-origin: top center;
 
-    z-index: ;
+    z-index: 2;
 }
 .c-c-right-3-sub{
     top: 230px;
@@ -452,11 +452,11 @@
 
     width: 3px;
     height: ;
-    background-color: #4d4d4d;
+    background-color: #525252;
 
     transform-origin: top center;
 
-    z-index: ;
+    z-index: 1;
 }
 
 
