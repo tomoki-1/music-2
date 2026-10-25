@@ -366,7 +366,7 @@
 
     width: 8px;
     height: 180px;
-    background-color: #8d8d8d;
+    background-color: #b5b5b5;
 
     box-shadow: inset -1px 0px 6px #000000;
 
@@ -404,14 +404,14 @@
 }
 .c-c-right-2{
     top: 210px;
-    left: 48%;
-    transform: translateX(-50%) rotate();
+    left: 50%;
+    transform: translateX(-50%) rotate(40deg);
 
     width: 8px;
-    height: 0px;
+    height: 32px;
     background-color: #8d8d8d;
 
-    box-shadow: inset 1px 0px 6px #000000;
+    box-shadow: inset -1px 0px 6px #000000;
 
     transform-origin: top center;
 
@@ -464,8 +464,8 @@
 
 
 
-/*
 
+/*
 .ride-cymbal{
     position: absolute;
     top: 330px;
